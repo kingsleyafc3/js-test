@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Test</title>
+
+<script type="text/javascript" src="form.js" >
+</script>
+
+</head>
+<body>
+
+<form action="#" onsubmit="return add();" method="post" >
+<p>
+   <table id="formtest">
+       <tr>
+           <th>UserID</th>
+           <th><input type="text" id="UserID" name="id"/></th>
+           <th id="userIDError" style="color: red;"></th>
+       </tr>
+       <tr>
+           <th>First Name</th>
+           <th><input type="text" id="firstName" name="firstName" /></th>
+           <th id="firstnameError" style="color: red;"></th>
+       </tr>
+       <tr>
+           <th>Last Name</th>
+           <th><input type="text" id="lastName" name="lastName"/></th>
+           <th id="lastnameError" style="color: red;"></th>
+       </tr>
+      
+       <tr>
+           <th><input type="submit" value="Add"/></th>
+       </tr>
+      
+   </table>
+
+</form>
+<p id="displayform">
+</p>
+</body>
+</html>
